@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style: none;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-left: 20px;
+}
+
+.menu li a {
+    background-color: #f2f3f5;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+
+.menu li a i {
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.menu li a span {
+    display: none;
+    margin-left: 8px;
+}
+
+.menu li a:hover {
+    color: #fff;
+    background-color: #0563bb;
+    border-radius: 30px;
+    width: 100%;
+}
+
+.menu li .active {
+    color: #fff;
+    background-color: #0563bb;
+    border-radius: 30px;
+}
+
+.menu li a:hover span {   
+    display: block;
+}
+
+#home {
+    /* css background */
+    height: 100vh;
+    background: url('https://supperclean.vn/wp-content/uploads/2021/01/386f47c88a7aaa497ec6edc1c02cc9b6-scaled.jpg') no-repeat center;
+    background-size: cover;
+}
+
+#home .bg-home {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.introduce {
+    color: #45505b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-left: 192px;
+}
+
+.name {
+    font-size: 64px;
+}
+
+.text-introduce {
+    font-size: 28px;
+    margin-bottom: 42px;
+}
+
+.link-social {
+    display: flex;
+}
+
+.link-social li a {
+    margin-right: 30px;
+    font-size: 20px;
+    color: #45505b;
+}
+
+.link-social li a:hover {
+    color: #0563bb;
+}
+
+.typing  {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 28px;
+    border-right: 3px solid #0563bb;
+    white-space: nowrap;
+    width: 205px;
+    letter-spacing: 1.5px;
+    animation:
+        typing 3s steps(40) infinite,
+        blink-caret 0.5s infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 45px;
+    }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #0563bb }
+}

@@ -1,0 +1,33 @@
+.layout {
+    background-color: #ddd;
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    /* flex-direction:row;
+    flex-wrap:wrap-reverse; */
+    /* flex-flow: row wrap; */
+    justify-content: space-around;
+    /* align-items: center; */
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 250px;
+    height: 90px;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    font-size: 48px;
+    /* margin-top: 20px;
+    margin-right: 20px; */
+    background-color: #22ef33;
+}
+
+.item-3 {
+    order: 1;
+}
+
+.item-4 {
+    order: 2;
+}
