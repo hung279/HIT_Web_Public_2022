@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Foods</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Karma", sans-serif
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Top menu -->
+    <nav class="navbar d-flex">
+        <ul class="d-flex nav-menu">
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#about">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="#foods">
+                    Foods
+                </a>
+            </li>
+            <li class="sub-nav">
+                <a href="">
+                    More <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="sub-menu">
+                    <li>
+                      <a href="">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="">
+                            Blog
+                        </a>
+                    </li>
+                    <li>
+                      <a href="">Contact me</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="search-box">
+            <a href="" class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="container" style="max-width:1200px;margin-top:80px">
+
+        <!-- About Section -->
+        <div class="about-section text-center" id="about">
+            <h3>About Me, The Food Man</h3><br>
+            <img src="./img/chefman.jpg" alt="Me" style="display:block;margin:auto" width="800"
+                height="533">
+            <div class="description">
+                <h4><b>I am Who I Am!</b></h4>
+                <h6><i>With Passion For Real, Good Food</i></h6>
+                <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest
+                    of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed
+                    tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non
+                    fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae,
+                    ultricies congue gravida diam non fringilla.</p>
+            </div>
+        </div>
+
+        
+
+        <hr id="foods">
+
+        <!-- Foods section -->
+        <div class="list-foods row text-center" id="food">
+            <div class="food-item">
+                <img src="./img/food1.jpg" alt="image" style="width:100%">
+                <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="food-item">
+                <img src="./img/food2.jpg" alt="image" style="width:100%">
+                <h3>Let Me Tell You About This Steak</h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="food-item">
+                <img src="./img/food3.jpg" alt="image" style="width:100%">
+                <h3>Cherries, interrupted</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.
+
+                    What else?</p>
+            </div>
+            <div class="food-item">
+                <img src="./img/food4.jpg" alt="image" style="width:100%">
+                <h3>Let Me Tell You About This Steak</h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+                </p>
+            </div>
+            <div class="food-item">
+                <img src="./img/food5.jpg" alt="image" style="width:100%">
+                <h3>Cherries, interrupted</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+                <p>What else?</p>
+            </div>
+            <div class="food-item">
+                <img src="./img/food6.jpg" alt="image" style="width:100%">
+                <h3>All I Need Is a Popsicle</h3>
+                <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+            <div class="food-item">
+                <img src="./img/food7.jpg" alt="image" style="width:100%">
+                <h3>Salmon For Your Skin</h3>
+                <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.
+                </p>
+            </div>
+            <div class="food-item">
+                <img src="./img/food8.jpg" alt="image" style="width:100%">
+                <h3>The Perfect Sandwich, A Real Classic</h3>
+                <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="text-center pagination">
+            <div class="paginate-bar text-center">
+                <a href="#">«</a>
+                <a href="#" class="paginate-active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">»</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Footer -->
+        <footer class="row">
+            <div class="footer-item">
+                <h3>FOOTER</h3>
+                <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+                    congue gravida diam non fringilla.</p>
+                <p>Powered by <a href="" target="_blank" style="color: #f47c2a">HIT Club</a></p>
+            </div>
+
+            <div class="footer-item">
+                <h3>BLOG POSTS</h3>
+                <ul class="list-blogs">
+                    <li class="blog-item d-flex">
+                        <div class="blog-img">
+                            <img src="./img/blog1.jpg" style="width:50px">
+                        </div>
+                        <div class="blog-desc">
+                            <p class="blog-title">Lorem</p>
+                            <p>Sed mattis nunc</p>
+                        </div>
+                    </li>
+                    <li class="blog-item d-flex">
+                        <div class="blog-img">
+                            <img src="./img/blog2.jpg" style="width:50px">
+                        </div>
+                        <div class="blog-desc">
+                            <p class="blog-title">Ipsum</p>
+                            <p>Praes tinci sed</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-item w3-serif">
+                <h3>POPULAR TAGS</h3>
+                <p class="list-tags">
+                    <span class="tag">Foods</span>
+                    <span class="tag">New York</span>
+                    <span class="tag">Dinner</span>
+                    <span class="tag">Salmon</span>
+                    <span class="tag">France</span>
+                    <span class="tag">Drinks</span>
+                    <span class="tag">Ideas</span>
+                    <span class="tag">Flavors</span>
+                </p>
+            </div>
+        </footer>
+
+        <!-- End page content -->
+    </div>
+
+</body>
+
+</html>
