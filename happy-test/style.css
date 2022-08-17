@@ -191,3 +191,56 @@ footer {
     padding: 0 8px;
     margin-bottom: 8px;
 }
+
+/* Mobile: width <= 480px */
+@media only screen and (max-width: 480px) {
+    .nav-menu {
+      display: none;
+    }
+    .about-section img {
+      width: 100%;
+      height: auto;
+    }
+    .description p {
+      display: none;
+    }
+    .food-item,
+    .footer-item {
+      width: 100%;
+    }
+    footer {
+      flex-direction: column-reverse;
+    }
+    .footer-item:nth-child(2) {
+      order: 1;
+    }
+  }
+  
+  /* Tablet:  width > 480px and width <= 768px */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .nav-menu {
+      display: none;
+    }
+    .about-section img {
+      width: 100%;
+      height: auto;
+    }
+    .food-item,
+    .footer-item {
+      width: 50%;
+    }
+    footer {
+      flex-direction: row;
+    }
+    .footer-item:first-child {
+      order: 1;
+      width: 100%;
+    }
+  }
+  
+  /* Laptop: width > 768px and width <= 1024px */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .food-item {
+      width: 33.33333%;
+    }
+  }
